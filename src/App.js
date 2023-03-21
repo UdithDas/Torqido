@@ -9,6 +9,7 @@ import Counter from './component/Counter';
 import Sim from './component/Sim';
 import Numonic from './component/Numonic';
 import Shazz from './component/Shazz';
+import Validation from './component/Validation';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <Counter/> */}
       {/* <Sim/> */}
       {/* <Numonic/> */}
-      <Shazz/>
+      {/* <Shazz/> */}
+      <Validation/>
     </div>
   );
 }
